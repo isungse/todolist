@@ -84,7 +84,7 @@ function filter(event) {
     render();
   } else if (mode == "done") {
     for (let i = 0; i < taskList.length; i++) {
-      if (taskList[i].isComplete == true);
+      if (taskList[i].isComplete == true)
       {
         filterList.push(taskList[i]);
       }
